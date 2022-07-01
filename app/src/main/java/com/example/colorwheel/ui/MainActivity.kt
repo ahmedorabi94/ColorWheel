@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity(), ColorChangeListener {
         }
 
     }
-
     override fun setTintColor(color: Int) {
 
         val c = viewModel.getSelectedColor(color)
