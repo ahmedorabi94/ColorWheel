@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_circle_radius">22dp</dimen>
+
+    <item name="default_circle_color_circle_scale" type="dimen" format="float">0.88</item>
+
+</resources>

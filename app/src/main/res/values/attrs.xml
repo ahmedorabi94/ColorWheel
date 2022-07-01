@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="tb_circleRadius" format="dimension" />
+    <attr name="tb_circleColor" format="dimension" />
+    <attr name="tb_circleStrokeColor" format="dimension" />
+    <attr name="tb_circleColorCircleScale" format="dimension" />
+
+    <declare-styleable name="ColorWheel">
+        <attr name="tb_circleRadius" />
+        <attr name="tb_circleColor" />
+        <attr name="tb_circleStrokeColor" />
+        <attr name="tb_circleColorCircleScale" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientSeekBar">
+        <attr name="tb_circleRadius" />
+        <attr name="tb_circleColor" />
+        <attr name="tb_circleStrokeColor" />
+        <attr name="tb_circleColorCircleScale" />
+        <attr name="asb_barSize" format="dimension" />
+        <attr name="gsb_barCornersRadius" format="dimension" />
+        <attr name="gsb_startColor" format="color" />
+        <attr name="gsb_endColor" format="color" />
+        <attr name="gsb_offset" format="float" />
+        <attr name="gsb_orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
